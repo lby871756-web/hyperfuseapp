@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Hyperfuse: Charge &amp; Play</string>
+    <string name="tab_dashboard">Overview</string>
+    <string name="tab_charge">HyperCharge</string>
+    <string name="tab_gaming">HyperPlay</string>
+    <string name="tab_battery">Battery</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Overview / Memory -->
+    <string name="ram_status_title">Hyper RAM Engine</string>
+    <string name="ram_used_label">RAM Used</string>
+    <string name="ram_available_label">Available</string>
+    <string name="ram_total_label">Total System RAM</string>
+    <string name="btn_hyper_purge">HYPER PURGE</string>
+    <string name="btn_cooling">DEVICE COOLDOWN</string>
+    <string name="purging_ram">Purging cached buffers &amp; background tasks…</string>
+    <string name="purge_completed">Freed %1$d MB RAM! Performance boosted by %2$d%%.</string>
+    <string name="cooldown_completed">Device cooling cycle completed! Thermal state normalized.</string>
+    <string name="device_telemetry">Live System Telemetry</string>
+    <string name="thermal_status">Thermal Status</string>
+    <string name="thermal_optimal">Optimal (Cool)</string>
+    <string name="thermal_warm">Warm (Elevated)</string>
+    <string name="thermal_hot">Critical (Throttled)</string>
+    <string name="battery_health_status">Battery Health</string>
+    <string name="system_voltage">Voltage</string>
+    <string name="power_state">Power State</string>
+
+    <!-- HyperCharge -->
+    <string name="charge_boost_title">HyperCharge Fast Speed Booster</string>
+    <string name="charge_status_charging">Charging Connected</string>
+    <string name="charge_status_discharging">On Battery (Discharging)</string>
+    <string name="charge_status_full">Battery Full (100%)</string>
+    <string name="charge_speed_boost_active">HyperCharge Acceleration ACTIVE</string>
+    <string name="charge_speed_boost_desc">Optimizes kernel wake locks, background network throttles, and charging power draw curve.</string>
+    <string name="btn_enable_hypercharge">BOOST CHARGING SPEED</string>
+    <string name="btn_disable_hypercharge">RESTORE STANDARD CHARGE</string>
+    <string name="est_time_80">Time to 80% Fast Charge</string>
+    <string name="est_time_full">Time to 100% Full Charge</string>
+    <string name="charger_type">Charger Type</string>
+    <string name="charger_ac">Fast AC Adapter</string>
+    <string name="charger_usb">USB Port</string>
+    <string name="charger_wireless">Wireless Induction Qi</string>
+    <string name="charger_none">Unplugged</string>
+    <string name="charging_curve_stage">Smart 3-Phase Charging Curve</string>
+    <string name="phase_rapid">Phase 1: Rapid Kinetic (0-70%)</string>
+    <string name="phase_saturation">Phase 2: Saturation (70-90%)</string>
+    <string name="phase_trickle">Phase 3: Safe Trickle (90-100%)</string>
+
+    <!-- HyperPlay Gaming Mode -->
+    <string name="gaming_turbo_title">HyperPlay Game Turbo Space</string>
+    <string name="gaming_turbo_desc">Unleash maximum GPU/CPU bias, touch polling rate and latency shield.</string>
+    <string name="gaming_boost_active">TURBO MODE ACTIVE</string>
+    <string name="gaming_boost_idle">TURBO MODE STANDBY</string>
+    <string name="btn_turbo_engage">ENGAGE TURBO ENGINE</string>
+    <string name="btn_turbo_disengage">DISENGAGE TURBO</string>
+    <string name="target_fps_label">Target Frame Rate</string>
+    <string name="touch_polling_label">Ultra Touch Polling (240Hz)</string>
+    <string name="touch_polling_desc">Reduces input sampling jitter and touch lag.</string>
+    <string name="dnd_shield_label">DND Gaming Shield</string>
+    <string name="dnd_shield_desc">Blocks banners, calls, and floating notification popups.</string>
+    <string name="ping_radar_title">Gaming Network Ping Radar</string>
+    <string name="btn_run_ping_test">RUN PING TEST</string>
+    <string name="ping_measuring">Testing server response…</string>
+    <string name="ping_result">%1$d ms</string>
+    <string name="ping_status_great">Optimal for Esports</string>
+    <string name="ping_status_fair">Moderate Latency</string>
+    <string name="ping_status_high">High Jitter / Packet Lag</string>
+    <string name="installed_games_header">Game Space Library</string>
+    <string name="btn_launch_turbo">Launch Turbo</string>
+    <string name="add_game_hint">Select an installed application to add to Game Turbo</string>
+
+    <!-- Battery Guardian -->
+    <string name="battery_profiles_title">Smart Power Profiles</string>
+    <string name="profile_balanced">Balanced Kinetic</string>
+    <string name="profile_balanced_desc">Intelligent dynamic balance between battery life and fluid frame rates.</string>
+    <string name="profile_saver">Ultra Power Saver</string>
+    <string name="profile_saver_desc">Restricts non-essential background synchronization to extend runtime by up to 200%.</string>
+    <string name="profile_overdrive">Hyper Overdrive</string>
+    <string name="profile_overdrive_desc">Maximizes multi-core clock speeds for extreme performance tasks.</string>
+    <string name="battery_history_title">Recent Performance &amp; Boost Logs</string>
+    <string name="no_logs_yet">No boost events recorded yet. Press HYPER PURGE to clean memory!</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Hyperfuse Settings</string>
+    <string name="settings_language">Language / اللغة / Langue</string>
+    <string name="settings_temp_unit">Temperature Unit</string>
+    <string name="temp_celsius">Celsius (°C)</string>
+    <string name="temp_fahrenheit">Fahrenheit (°F)</string>
+    <string name="settings_haptics">Haptic Kinetic Feedback</string>
+    <string name="settings_haptics_desc">Tactile vibrations on boost and turbo engagement.</string>
+    <string name="settings_charge_alarm">Full Charge Protection Alert</string>
+    <string name="settings_charge_alarm_desc">Sounds chime at 100% to avoid lithium battery overcharging.</string>
+    <string name="settings_high_temp_alert">Thermal Overheat Warning</string>
+    <string name="settings_high_temp_alert_desc">Notifies immediately if device exceeds 42°C.</string>
+    <string name="settings_clear_data">Reset Performance History</string>
+    <string name="data_cleared">History and logs cleared.</string>
+    <string name="about_app">About Hyperfuse: Charge &amp; Play</string>
+    <string name="about_version">Version 2.4.0-kinetic • Pro Edition</string>
+    <string name="about_desc">The all-in-one gaming acceleration, battery health manager, memory purge, and smart fast charging booster engineered for peak Android mobile performance.</string>
+</resources>

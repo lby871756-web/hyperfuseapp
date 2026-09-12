@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Hyperfuse: Charge &amp; Play</string>
+    <string name="tab_dashboard">نظرة عامة</string>
+    <string name="tab_charge">الشحن الفائق</string>
+    <string name="tab_gaming">وضع الألعاب</string>
+    <string name="tab_battery">البطارية</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <!-- Overview / Memory -->
+    <string name="ram_status_title">محرك الذاكرة العشوائية (RAM)</string>
+    <string name="ram_used_label">المستخدم من الذاكرة</string>
+    <string name="ram_available_label">المتاح</string>
+    <string name="ram_total_label">إجمالي الذاكرة العشوائية</string>
+    <string name="btn_hyper_purge">تنظيف فائق للذاكرة</string>
+    <string name="btn_cooling">تبريد الهاتف</string>
+    <string name="purging_ram">جاري تفريغ الذاكرة المؤقتة والمهام الخلفية…</string>
+    <string name="purge_completed">تم تحرير %1$d ميجابايت من الذاكرة! زاد الأداء بنسبة %2$d%%.</string>
+    <string name="cooldown_completed">اكتملت دورة التبريد! تم استقرار الحرارة بنجاح.</string>
+    <string name="device_telemetry">بيانات النظام المباشرة</string>
+    <string name="thermal_status">الحالة الحرارية</string>
+    <string name="thermal_optimal">مثالية (بارد)</string>
+    <string name="thermal_warm">دافئ (مرتفع قليلاً)</string>
+    <string name="thermal_hot">حرج (حرارة عالية)</string>
+    <string name="battery_health_status">صحة البطارية</string>
+    <string name="system_voltage">الجهد الكهربائي</string>
+    <string name="power_state">حالة الطاقة</string>
+
+    <!-- HyperCharge -->
+    <string name="charge_boost_title">تسريع الشحن الذكي</string>
+    <string name="charge_status_charging">متصل بالشاحن (جاري الشحن)</string>
+    <string name="charge_status_discharging">يعمل على البطارية (تفريغ)</string>
+    <string name="charge_status_full">البطارية ممتلئة (100%)</string>
+    <string name="charge_speed_boost_active">تسريع الشحن الفائق مُفَعَّل</string>
+    <string name="charge_speed_boost_desc">يعمل على تحسين عمليات النظام الخلفية وخفض استهلاك الطاقة لزيادة سرعة الشحن.</string>
+    <string name="btn_enable_hypercharge">تفعيل تسريع الشحن</string>
+    <string name="btn_disable_hypercharge">استعادة الشحن العادي</string>
+    <string name="est_time_80">الوقت المتبقي حتى 80%</string>
+    <string name="est_time_full">الوقت المتبقي حتى 100%</string>
+    <string name="charger_type">نوع الشاحن</string>
+    <string name="charger_ac">شاحن جداري سريع (AC)</string>
+    <string name="charger_usb">منفذ USB</string>
+    <string name="charger_wireless">شاحن لاسلكي Qi</string>
+    <string name="charger_none">غير متصل</string>
+    <string name="charging_curve_stage">مراحل الشحن الذكي ثلاثية المستويات</string>
+    <string name="phase_rapid">المرحلة 1: شحن حركي سريع (0-70%)</string>
+    <string name="phase_saturation">المرحلة 2: التشبع المنظم (70-90%)</string>
+    <string name="phase_trickle">المرحلة 3: شحن بطيء للحماية (90-100%)</string>
+
+    <!-- HyperPlay Gaming Mode -->
+    <string name="gaming_turbo_title">مساحة تسريع الألعاب HyperPlay</string>
+    <string name="gaming_turbo_desc">إطلاق أقصى قوة لمعالج الرسومات واستجابة اللمس وحماية الشبكة.</string>
+    <string name="gaming_boost_active">وضع التوربو مُفَعَّل</string>
+    <string name="gaming_boost_idle">وضع التوربو في وضع الاستعداد</string>
+    <string name="btn_turbo_engage">تشغيل محرك التوربو</string>
+    <string name="btn_turbo_disengage">إيقاف التوربو</string>
+    <string name="target_fps_label">معدل الإطارات المستهدف (FPS)</string>
+    <string name="touch_polling_label">معدل استجابة لمس فائق (240Hz)</string>
+    <string name="touch_polling_desc">تقليل زمن استجابة اللمس للتحكم الدقيق.</string>
+    <string name="dnd_shield_label">درع عدم الإزعاج أثناء اللعب</string>
+    <string name="dnd_shield_desc">حظر الإشعارات المنبثقة والمكالمات العشوائية أثناء اللعب.</string>
+    <string name="ping_radar_title">رادار فحص استجابة الشبكة (البينج)</string>
+    <string name="btn_run_ping_test">فحص البينج الآن</string>
+    <string name="ping_measuring">جاري فحص سرعة الاستجابة للخوادم…</string>
+    <string name="ping_result">%1$d ملي ثانية</string>
+    <string name="ping_status_great">ممتاز للرياضات الإلكترونية والألعاب</string>
+    <string name="ping_status_fair">استجابة متوسطة</string>
+    <string name="ping_status_high">تأخر في الاستجابة (لاغ)</string>
+    <string name="installed_games_header">مكتبة الألعاب</string>
+    <string name="btn_launch_turbo">تشغيل بالتوربو</string>
+    <string name="add_game_hint">اختر تطبيقاً أو لعبة مثبتة لإضافتها لمسرع الألعاب</string>
+
+    <!-- Battery Guardian -->
+    <string name="battery_profiles_title">أوضاع الطاقة الذكية</string>
+    <string name="profile_balanced">المتوازن الديناميكي</string>
+    <string name="profile_balanced_desc">توازن ذكي بين عمر البطارية وسلاسة أداء الشاشة.</string>
+    <string name="profile_saver">توفير فائق للطاقة</string>
+    <string name="profile_saver_desc">يقيد المزامنة الخلفية لتمديد عمر الشحنة بنسبة تصل إلى 200%.</string>
+    <string name="profile_overdrive">الأداء الأقصى (Overdrive)</string>
+    <string name="profile_overdrive_desc">يمنح الألعاب والتطبيقات الثقيلة الأولوية القصوى لمعالجات الهاتف.</string>
+    <string name="battery_history_title">سجل عمليات التعزيز والتنظيف</string>
+    <string name="no_logs_yet">لا توجد عمليات سابقة. اضغط على تنظيف الذاكرة للبدء!</string>
+
+    <!-- Settings -->
+    <string name="settings_title">إعدادات Hyperfuse</string>
+    <string name="settings_language">اللغة / Language / Langue</string>
+    <string name="settings_temp_unit">وحدة قياس درجة الحرارة</string>
+    <string name="temp_celsius">مئوية (°C)</string>
+    <string name="temp_fahrenheit">فهرنهايت (°F)</string>
+    <string name="settings_haptics">الاهتزاز اللمسي التفاعلي</string>
+    <string name="settings_haptics_desc">اهتزازات حركية عند تفعيل التسريع والتوربو.</string>
+    <string name="settings_charge_alarm">تنبيه اكتمال الشحن لحماية البطارية</string>
+    <string name="settings_charge_alarm_desc">تنبيه عند بلوغ 100% لمنع إجهاد بطارية الليثيوم.</string>
+    <string name="settings_high_temp_alert">إنذار ارتفاع حرارة الجهاز</string>
+    <string name="settings_high_temp_alert_desc">إشعار فوري إذا تجاوزت حرارة الهاتف 42 درجة مئوية.</string>
+    <string name="settings_clear_data">إعادة تعيين سجل الأداء</string>
+    <string name="data_cleared">تم مسح السجلات وبيانات الأداء.</string>
+    <string name="about_app">حول تطبيق Hyperfuse</string>
+    <string name="about_version">الإصدار 2.4.0-kinetic • النسخة الاحترافية</string>
+    <string name="about_desc">التطبيق المتكامل لتسريع الألعاب وحماية البطارية وإدارة الذاكرة وتسريع الشحن الذكي لهواتف أندرويد بأعلى كفاءة.</string>
+</resources>

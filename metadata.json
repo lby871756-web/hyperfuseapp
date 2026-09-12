@@ -1,0 +1,6 @@
+{
+  "name": "Hyperfuse: Charge & Play",
+  "description": "Next-gen memory cleaner, battery guardian, hyper-charge booster, and dedicated gaming mode turbo optimizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
